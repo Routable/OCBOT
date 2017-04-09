@@ -7,7 +7,7 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 import javax.security.auth.login.LoginException;
 
 
-/* Main class that runs OC Discord Bot.
+/* Main class that runs OC Discord Bot. Created by Steven Bucholtz & Shayne Doyle. 
  * 
  */
 
