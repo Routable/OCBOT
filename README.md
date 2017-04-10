@@ -1,7 +1,7 @@
 # OCBOT
 Discord BOT created for the Okanagan College discord server. 
 
-This BOT was created by Steven Bucholtz & Shayne Doyle. The bot was created using the JDA library for Java, created by DV8THEWORLD. 
+This BOT was created by Steven Bucholtz & Shane Doyle. The bot was created using the JDA library for Java, created by DV8THEWORLD. 
 
 The following features have been implemented: 
 
