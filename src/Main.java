@@ -24,6 +24,7 @@ public class Main extends ListenerAdapter {
 	                    .addListener(new BotListener()) //Listener prints useful information in plain English on IDE. 
 	                    .addListener(new LanguageFilter()) //Checks for naughty words, acts accordingly. 
 	                    .addListener(new BaseCommands())
+	                    .addListener(new QuizBotPrivate())
 	                    .addListener(new GuildJoin())
 	                    .buildBlocking();  
 	        }

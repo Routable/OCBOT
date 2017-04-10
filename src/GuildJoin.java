@@ -60,7 +60,8 @@ public class GuildJoin extends ListenerAdapter {
 
 							+ "1) I am an Okanagan College CIS/BCIS student, and wish to access course channels applicable to the programming department. \n \n"
 							+ "2) I am a non-CIS/BCIS student, and wish to access course channels applicable to the programming department. \n \n"
-							+ "3) I am a guest, and do not require classroom specific permissions.").queue();
+							+ "3) I am a guest, and do not require classroom specific permissions."
+							+ "\n If the bot does not respond, type /return to reset the process.").queue();
 				});
 			}
 
@@ -92,9 +93,9 @@ public class GuildJoin extends ListenerAdapter {
 
 					if (event.isFromType(ChannelType.PRIVATE) && !(bot)) {
 						
-						//System.out.println("User test 1");
+						System.out.println("User test 1");
 						if (msg.equals("1") && !(bot) && !password) {
-						//	System.out.println("Yup, it works!");
+						System.out.println("Yup, it works!");
 							nm.openPrivateChannel().queue(channel -> {
 								channel.sendMessage(
 										"Please enter the password that was provided to you, or type 'return' to return to the previous menu")
@@ -178,5 +179,6 @@ public class GuildJoin extends ListenerAdapter {
 		nm.openPrivateChannel().queue(channel -> {
 			channel.sendMessage("Your account has been automatically promoted. Thanks for registering!").queue();
 		});
+		password = false; cosc = false; notcosc = false; 
 	}
 }

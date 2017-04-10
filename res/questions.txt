@@ -1,0 +1,10 @@
+c,1,The<Blank> integrated development environment is used for creating applications written in .NET programming languages such as Visual Basic.NET. 
+a) Solution Exploreer   b) Gates   c) Visual Studio.NET   d)Microsoft
+a,2,The.vb filename extension indicates a <Blank>.
+a) Visual Basic File   b) dynamic help file  c) help file  d) very big file
+b,3,The pictures on toolbar Buttons are called <Blank>.
+a) prototypes   b) icons   c) tool tips   d) tabs
+a,4,The <Blank> allows programmers to modify controls visually, without writing code.
+a) Properties window   b) Solution Explorer  c) menu bar  d) Toolbox
+b,5,The hides the Toolbox when the mouse pointer is moved outside the ToolBox’s area.
+a) component-selection feature  b) Auto Hide feature  c) pinned command   d) minimize command
