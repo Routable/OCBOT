@@ -20,7 +20,7 @@ public class Main extends ListenerAdapter {
 	            JDA jda = new JDABuilder(AccountType.BOT)
 	            		
 	              //OC BOT TOKEN - PRIVATE!!! DO NOT REVEAL!!! -SB
-	                    .setToken("Mjc0MDYyNzA5NTI2MzY0MTYw.C8Gj5w.BOVFNLH-6BQ9Cb7cKR4BsDBoUvU")          
+	                    .setToken("THIS TOKEN IS PRIVATE REMOVED FOR SECURITY")          
 	                    .addListener(new BotListener()) //Listener prints useful information in plain English on IDE. 
 	                    .addListener(new LanguageFilter()) //Checks for naughty words, acts accordingly. 
 	                    .addListener(new BaseCommands())
